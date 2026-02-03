@@ -22,5 +22,7 @@ endif()
 add_subdirectory(src/core)
 add_subdirectory(src/runtime)
 add_subdirectory(src/app)
+add_subdirectory(src/executors)
+add_subdirectory(src/taskmanager)
 
 add_subdirectory(tests)
