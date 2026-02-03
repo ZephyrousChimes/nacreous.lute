@@ -26,3 +26,5 @@ add_subdirectory(src/executors)
 add_subdirectory(src/taskmanager)
 
 add_subdirectory(tests)
+
+add_subdirectory(third_party/nacreous_rosette)
