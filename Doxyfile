@@ -1,0 +1,56 @@
+#-------------------------------------------------
+# Project
+#-------------------------------------------------
+
+PROJECT_NAME           = "nacreous.lute"
+PROJECT_BRIEF          = "Low-latency task execution engine"
+OUTPUT_DIRECTORY       = docs/generated
+
+#-------------------------------------------------
+# Input
+#-------------------------------------------------
+
+INPUT                  = src
+RECURSIVE              = YES
+FILE_PATTERNS          = *.h *.hpp *.cpp
+EXCLUDE                = build third_party
+
+#-------------------------------------------------
+# Extraction
+#-------------------------------------------------
+
+EXTRACT_ALL            = YES
+EXTRACT_PRIVATE        = YES
+EXTRACT_STATIC         = YES
+EXTRACT_LOCAL_CLASSES  = YES
+EXTRACT_ANON_NSPACES   = YES
+
+#-------------------------------------------------
+# Markdown / Main Page
+#-------------------------------------------------
+
+MARKDOWN_SUPPORT       = YES
+USE_MDFILE_AS_MAINPAGE = README.md
+
+#-------------------------------------------------
+# Output
+#-------------------------------------------------
+
+GENERATE_HTML          = YES
+GENERATE_LATEX         = NO
+GENERATE_TREEVIEW      = YES
+FULL_PATH_NAMES        = NO
+
+#-------------------------------------------------
+# Warnings
+#-------------------------------------------------
+
+WARN_IF_UNDOCUMENTED   = NO
+WARN_IF_DOC_ERROR      = YES
+WARN_NO_PARAMDOC       = NO
+
+#-------------------------------------------------
+# Custom Aliases
+#-------------------------------------------------
+
+ALIASES += thread="\\par Thread:"
