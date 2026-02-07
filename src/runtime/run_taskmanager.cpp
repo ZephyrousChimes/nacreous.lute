@@ -10,6 +10,10 @@ int run_taskmanager(
     const lute::runtime::config::AppConfig& config
 ) {
     CORE_ASSERT(1 == 1, "Yep, looks true");
+
+    ctx;
+    config;
+    return 0;
 }
 
 } // lute::runtime
